@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(223, 218, 218);
+    width: 434px;
+    
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 45 px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: rgb(202, 9, 128);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+
+.Hello{
+    font-size: 65px;
+    
+    
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.aboutmore{
+    font-size: 22px;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(212, 40, 40);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px 3px;
+    cursor: pointer;
+    
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: rgb(212, 40, 40);
+    
+}
+
+.devpic img{
+    
+    height: 58vh;
+    
+}
+
+.contactform{
+    padding:0px 34px;
+    padding-top: 144px;
+   
+}
+
+.contactform h1{
+    text-align: center;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;   
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.blogItem{
+    margin: 20px;
+}
+
+
+.blogcontainer h1{
+    margin: 23px;
+}
+
+
+.blogItem p{
+    
+}
