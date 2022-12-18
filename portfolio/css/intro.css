@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+
+
 .sidebar{
     background-color: rgb(223, 218, 218);
     width: 434px;
@@ -35,6 +37,7 @@
 
 .container{
     display: flex;
+    background-color: #DABFFF;
 }
 
 .infocontainer{
@@ -44,6 +47,7 @@
     margin: 144px auto;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .devInfo{
@@ -165,8 +169,36 @@
     margin:0 24px;
 }
 
+
+
 .skill{
-    width: 23px;
-    height: 23px;
-    
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
 }
+
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+
+.hundred{
+    width: 265px;
+    background-color: blue;
+}
+
+.fifty{
+    width: 125px;
+    background-color: yellow;
+}
+
+.t5{
+    width: 55px;
+    background-color: aqua;
+}
+
+.seventyfive{
+    width: 195px;
+}
+

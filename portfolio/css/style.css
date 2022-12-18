@@ -31,19 +31,26 @@
 .main{
     /*background-color: yellow;*/
     width: 90vw;
+    display: flex;
+    
+    align-items: center;
 }
 
 .container{
     display: flex;
+    background-color: #DABFFF;
+    
 }
 
 .infocontainer{
     /*background-color: rgb(202, 9, 128);*/
     height: 58vh;
-    width: 80vw;
-    margin: 144px auto;
-    display: flex;
-    justify-content: space-around;
+    margin-left: 100px;
+    
+    
+    
+    
+    
 }
 
 .devInfo{
@@ -95,8 +102,9 @@
     color: rgb(212, 40, 40);
 }
 
-.devpic img{
-    width: 381px;
-    height: 58vh;
+
+
+.right img{
     
+    margin-left:400px ;
 }
