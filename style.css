@@ -45,7 +45,7 @@
 .infocontainer{
     /*background-color: rgb(202, 9, 128);*/
     height: 58vh;
-    margin-left: 100px;
+    margin-left: 50px;
     
     
     
@@ -106,5 +106,6 @@
 
 .right img{
     
-    margin-left:400px ;
+    margin-left:  40px;
+    margin-right: 600px;
 }
